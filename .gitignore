@@ -1,0 +1,27 @@
+# === Security & Secrets ===
+.env
+*.env.local
+*.secret
+
+# === Operating System Garbage ===
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# === Text Editors & IDEs ===
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+
+# === Logs & Diagnostics ===
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# === Future Proofing (Node.js/Dependencies) ===
+node_modules/
+dist/
+build/
